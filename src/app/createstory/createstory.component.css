@@ -1,0 +1,32 @@
+.CenterElement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  margin-bottom: 30px; 
+}
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px; 
+}
+
+textarea {
+  width: 400px;
+  height: 300px;
+  margin: 30px; 
+}
+
+.title {
+  width: 400px;
+  height: 40px;
+}
+
+.imageView {
+  width: 400px;
+}

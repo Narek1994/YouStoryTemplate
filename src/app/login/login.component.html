@@ -1,0 +1,22 @@
+<div class="CenterElement">
+        <form class="center-screen">
+           <input 
+              type="text" 
+              placeholder="Email/Username" 
+              name="email"
+              [(ngModel)]="email"
+              required 
+           />
+           <input 
+              type="password" 
+              placeholder="Password" 
+              name="password"
+              [(ngModel)]="password"
+              required 
+           />
+ 
+           <button (click)="login()">Login</button>
+        </form>        
+ </div>
+
+ <ng-http-loader></ng-http-loader>
